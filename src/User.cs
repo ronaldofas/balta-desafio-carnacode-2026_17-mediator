@@ -5,7 +5,7 @@ namespace DesignPatternChallenge
     // Classe base (Colleague) que contém a referência ao Mediator
     public abstract class User
     {
-        protected IChatMediator _mediator;
+        protected IChatMediator? _mediator;
         public string Name { get; set; }
         public bool IsMuted { get; set; }
 

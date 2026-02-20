@@ -126,9 +126,9 @@ namespace DesignPatternChallenge
         }
     }
 
-    class Program
+    public class OriginalProgram
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("=== Sistema de Chat em Grupo ===\n");
 
