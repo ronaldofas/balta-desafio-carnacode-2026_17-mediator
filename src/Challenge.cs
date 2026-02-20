@@ -80,7 +80,7 @@ namespace DesignPatternChallenge
         public void LeaveGroup()
         {
             // Problema: Ao sair, precisa notificar todos manualmente
-            foreach (var member in _groupMembers)
+            foreach (var member in _groupMembers.ToList())
             {
                 if (member != this)
                 {
